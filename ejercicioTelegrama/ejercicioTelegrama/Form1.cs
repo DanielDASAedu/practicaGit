@@ -37,9 +37,9 @@ namespace ejercicioTelegrama
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
             {
-                if (numPalabras <= 10)
+                if (numPalabras < 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
@@ -51,9 +51,9 @@ namespace ejercicioTelegrama
             {
                 if (tipoTelegrama == 'u')
                 {
-                    if (numPalabras <= 10)
+                    if (numPalabras < 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
